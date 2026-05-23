@@ -1,5 +1,5 @@
 //Student Information
-var studentName= "Robin";
+var studentName= "Mr. X";
 var age="20";
 var courseName= "Sociology";
 var isEnrolled= true;
@@ -25,3 +25,16 @@ document.querySelector("#division").innerHTML= division;
 
 //End of calculator
 
+//Loop
+var one_to_ten;
+
+for(one_to_ten=1; one_to_ten<11; one_to_ten++){
+   document.getElementById("for-loop").textContent+= one_to_ten + " ";
+}
+
+
+var ten_to_one=10;
+while(ten_to_one>=1){
+   document.getElementById("while-loop").textContent+= ten_to_one + " ";
+   ten_to_one--;
+}
