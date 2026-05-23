@@ -22,3 +22,6 @@ document.querySelector("#add").innerHTML= add;
 document.querySelector("#sub").innerHTML= sub;
 document.querySelector("#multi").innerHTML= multi;
 document.querySelector("#division").innerHTML= division;
+
+//End of calculator
+
