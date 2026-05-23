@@ -38,3 +38,14 @@ while(ten_to_one>=1){
    document.getElementById("while-loop").textContent+= ten_to_one + " ";
    ten_to_one--;
 }
+// end of loop
+
+// function
+
+function helloWorld(){
+   return "Hello World";
+}
+
+document.querySelector("#callFunction").textContent= helloWorld();
+
+//end of function
