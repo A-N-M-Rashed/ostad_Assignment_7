@@ -1,7 +1,16 @@
 *{
+    width: 1080px;
     margin: 0 auto;
     padding-top: 10px;
     text-align: center;
     background-color: #000;
     color: #eee;
+}
+
+h1{
+    color: salmon;
+}
+
+.border-top{
+    border-top: 0.2px solid #eee;
 }
